@@ -1,0 +1,59 @@
+Breast Cancer Wisconsin Dataset
+Descripción general
+Nombre de la base de datos
+
+Breast Cancer Wisconsin Dataset
+
+¿Qué es la base de datos?
+
+Es una base de datos médica utilizada para clasificar tumores de mama como benignos o malignos mediante diferentes características celulares obtenidas de estudios clínicos. Es ampliamente utilizada en investigaciones biomédicas y proyectos de inteligencia artificial aplicada a la salud.
+
+¿Cómo se obtuvieron los datos?
+
+Los datos fueron obtenidos mediante análisis clínicos y exámenes realizados a muestras celulares de tumores de mama en pacientes.
+
+Fuente / URL
+
+https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data?utm_source
+
+Número de filas y columnas
+569 filas
+32 columnas
+Formato del archivo
+
+Excel (.xlsx)
+
+| Nombre de columna       | Tipo de dato     | Descripción                                      | Ejemplo |
+| ----------------------- | ---------------- | ------------------------------------------------ | ------- |
+| id                      | Numérico (int)   | Identificador único del paciente                 | 842302  |
+| diagnosis               | Texto (str)      | Diagnóstico del tumor (M = maligno, B = benigno) | M       |
+| radius_mean             | Numérico (float) | Promedio del radio del tumor                     | 17.99   |
+| texture_mean            | Numérico (float) | Promedio de la textura del tumor                 | 10.38   |
+| perimeter_mean          | Numérico (float) | Promedio del perímetro del tumor                 | 122.8   |
+| area_mean               | Numérico (float) | Área promedio del tumor                          | 1001    |
+| smoothness_mean         | Numérico (float) | Suavidad promedio de la superficie celular       | 0.118   |
+| compactness_mean        | Numérico (float) | Compactación promedio del tumor                  | 0.278   |
+| concavity_mean          | Numérico (float) | Nivel promedio de concavidad                     | 0.300   |
+| concave points_mean     | Numérico (float) | Promedio de puntos cóncavos                      | 0.147   |
+| symmetry_mean           | Numérico (float) | Simetría promedio celular                        | 0.241   |
+| fractal_dimension_mean  | Numérico (float) | Dimensión fractal promedio                       | 0.078   |
+| radius_se               | Numérico (float) | Error estándar del radio                         | 1.095   |
+| texture_se              | Numérico (float) | Error estándar de la textura                     | 0.905   |
+| perimeter_se            | Numérico (float) | Error estándar del perímetro                     | 8.589   |
+| area_se                 | Numérico (float) | Error estándar del área                          | 153.4   |
+| smoothness_se           | Numérico (float) | Error estándar de suavidad                       | 0.006   |
+| compactness_se          | Numérico (float) | Error estándar de compactación                   | 0.049   |
+| concavity_se            | Numérico (float) | Error estándar de concavidad                     | 0.053   |
+| concave points_se       | Numérico (float) | Error estándar de puntos cóncavos                | 0.015   |
+| symmetry_se             | Numérico (float) | Error estándar de simetría                       | 0.030   |
+| fractal_dimension_se    | Numérico (float) | Error estándar de dimensión fractal              | 0.006   |
+| radius_worst            | Numérico (float) | Valor máximo del radio del tumor                 | 25.38   |
+| texture_worst           | Numérico (float) | Valor máximo de textura                          | 17.33   |
+| perimeter_worst         | Numérico (float) | Valor máximo del perímetro                       | 184.6   |
+| area_worst              | Numérico (float) | Valor máximo del área                            | 2019    |
+| smoothness_worst        | Numérico (float) | Máxima suavidad registrada                       | 0.162   |
+| compactness_worst       | Numérico (float) | Máxima compactación registrada                   | 0.665   |
+| concavity_worst         | Numérico (float) | Máxima concavidad registrada                     | 0.711   |
+| concave points_worst    | Numérico (float) | Máximo número de puntos cóncavos                 | 0.265   |
+| symmetry_worst          | Numérico (float) | Máxima simetría registrada                       | 0.460   |
+| fractal_dimension_worst | Numérico (float) | Máxima dimensión fractal registrada              | 0.118   |

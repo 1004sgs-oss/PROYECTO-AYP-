@@ -1,0 +1,34 @@
+
+Pima Indians Diabetes Dataset
+
+¿Qué es la base de datos?
+
+Es una base de datos médica utilizada para analizar y predecir la presencia de diabetes en pacientes a partir de diferentes variables clínicas y biométricas. Es ampliamente usada en proyectos de análisis de datos y machine learning en el área de la salud.
+
+¿Cómo se obtuvieron los datos?
+
+Los datos fueron obtenidos mediante exámenes médicos, mediciones clínicas y registros de pacientes pertenecientes a la comunidad Pima Indians.
+
+Fuente / URL
+
+https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database?resource=download
+
+Número de filas y columnas
+768 filas
+9 columnas
+Formato del archivo
+
+Excel (.xlsx)
+
+Descripción de columnas
+| Nombre de columna        | Tipo de dato     | Descripción                                        | Ejemplo |
+| ------------------------ | ---------------- | -------------------------------------------------- | ------- |
+| Pregnancies              | Numérico (int)   | Número de embarazos de la paciente                 | 2       |
+| Glucose                  | Numérico (int)   | Nivel de glucosa en sangre                         | 120     |
+| BloodPressure            | Numérico (int)   | Presión arterial diastólica                        | 70      |
+| SkinThickness            | Numérico (int)   | Grosor del pliegue cutáneo del tríceps             | 20      |
+| Insulin                  | Numérico (int)   | Nivel de insulina en sangre                        | 85      |
+| BMI                      | Numérico (float) | Índice de masa corporal                            | 33.6    |
+| DiabetesPedigreeFunction | Numérico (float) | Probabilidad genética de diabetes                  | 0.627   |
+| Age                      | Numérico (int)   | Edad del paciente                                  | 45      |
+| Outcome                  | Numérico (int)   | Resultado diagnóstico de diabetes (0 = no, 1 = sí) | 1       |
